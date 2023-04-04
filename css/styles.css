@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background: #f2eddf;
+  font-family: Arial;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #402977;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+
+
+.header__headline {
+  position: fixed;
+  margin: 0;
+  padding-inline-start: 100px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 2rem;
+}
+
+
+.button {
+  position: fixed;
+  /*left: 200px; */
+  justify-content: center;
+  bottom: 40px;
+  appearance: none;
+  border: none;
+  background: #ff7dcb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+.button__showanswer {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    top: 100px;
+    left: 200px;
+    bottom: 20px;
+    padding: 10px;
+    background-color:darkblue;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.box__question {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 100 px;
+    margin: 20px 10%;
+    padding: 50px;
+    background-color: #dfe5f2;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: black;
+
+}
+
+.bookmark {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:flex-end;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  color: #402977;
+}
+
+.boxanswers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+}
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: left;
+  width: min-content;
+  bottom: 10px;
+
+}
+
+.footer {
+
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0px;
+    padding: 10px;
+  color: #c394f2;
+  background: #716197;
+  justify-content: space-evenly;
+  border-radius: 10px;;
+
+}
+
+.tags {
+position: relative;
+  width: 25px;
+  color: white; 
+  border-radius: 10px;;
+}

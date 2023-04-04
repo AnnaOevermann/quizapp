@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
   </head>
 
   <body>
@@ -19,38 +19,48 @@
     </header>
       
     <main>
-        <section class="box__question"
+        <div class="box__question"
         >
-        <p>QuestionTest?</p>
+        <a href="/">
+          <img class="bookmark" src="images/bookmark (2).svg">
+          </a>            
+        <h2 class="question"> Question Number 1
+          What property flips the axes at Sandbox? </h2>
             <button class="button__showanswer">
                 Show Answer
               </button>
-            <span
-              class="content__accent"
-              role="img"
-              aria-label="A piece of hard candy"
-              >🍭</span
-            >            
-           </section>
-        
-        
+           
+           <div class="boxanswers" >
 
-        <section
+           </div>  
+           <button class="answers">#html</button>
+            <button class="answers">#flexbox</button>
+            <button class="answers">#css</button>
+
+
+            
+            
+           </div>
+           
+        <div
             class="box__question"
             >
-            <p>What property flips the axes at Sandbox?</p>
+            <a href="/">
+              <img class="bookmark" src="images/bookmark (2).svg">
+              </a>            
+            <h2 class="question">Question Number 2
+              What property flips the axes at Sandbox?</h2>
             <button class="button__showanswer">
                 Show Answer
               </button>
-              <span
-                class="content__accent"
-                role="img"
-                aria-label="A piece of hard candy"
-                >🍭</span
-                >
-        </section>
-            
-      
+              <div class="boxanswers">
+
+              </div>  
+              <button class="answers">#html</button>
+               <button class="answers">#flexbox</button>
+               <button class="answers">#css</button>
+
+        </div>
        
       </section>
     
@@ -58,9 +68,17 @@
     
 
     <footer class="footer">
-        <button>HOME</button>
-        <button>BOOKMARK</button>
-        <button>PROFILE</button>
+      <a href="/"> 
+        <img class="tags" src="images/home.svg" >
+        </a>        
+        <a href="/"> 
+          <img class="tags" src="images/bookmark (2).svg" >
+          </a>       
+           <a href="">
+            <img class="tags" src="images/user.svg" >
+            </a>     
+        
+        
     </footer>
   </body>
 </html>
